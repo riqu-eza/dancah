@@ -4,7 +4,7 @@ import Box from './Box';
 const Boxes = () => {
     const boxData = [
         {
-            image: 'https://picsum.photos/id/1015/400/300',
+            image: '',
             content: 'Box 1',
             to: '/box1'
         },

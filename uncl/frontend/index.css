@@ -4,17 +4,25 @@
 }
 body {
   margin: 0 10%;
-  width: 75%;
+  width: 90%;
   text-align: center;
 }
 button{
-  color:rgb(86, 148, 207);
+  color:black;
   border:1px solid rgb(89, 179, 200);
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-size: 25px;
 }
 button:hover{
-  color: rebeccapurple;
+  color:var(--custom-color);
+}
+:root{
+  --custom-color:rgb(53, 167, 196);
+}
+h2{
+  color: var(--custom-color);
 }
 .conhead {
   display: flex;
@@ -32,7 +40,7 @@ button:hover{
   padding: 10px;
 }
 .conhead li a {
-  color: #0e0b0b;
+  color:var(--custom-color);
   text-decoration: none;
   padding: 10px 15px;
   margin-top: 2cm;
@@ -43,6 +51,7 @@ button:hover{
   padding: 10px;
 }
 .conhead li a:hover {
+  color: black;
   background: rgb(58, 58, 190);
 }
 .main {
@@ -130,11 +139,11 @@ video {
 
 }
 .end p{
-  color: aquamarine;
+  color: var(--custom-color);
   text-decoration: none;
 }
 .end h3{
-  color: aquamarine;
+  color:var(--custom-color);
 }
 .end a{
   text-decoration: none;

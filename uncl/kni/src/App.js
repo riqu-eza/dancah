@@ -1,9 +1,9 @@
 import './App.css';
 import Messege from './Message';
 import Box from './Box';
-import Boxes from './Boxes';
 import BoxPage from './BoxPage';
-import BoxRoutes from './Boxesroutes';
+import Boxes from './Boxes';
+import BoxesRoutes from './Boxesroutes';
 
 function App() {
   return (
@@ -12,7 +12,9 @@ function App() {
       <Box />
       <BoxPage />
       <Boxes />
-      <BoxRoutes />
+      <BoxesRoutes />
+
+
     </div>
   );
 }

@@ -1,0 +1,109 @@
+.startpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.startimg{
+    width: 30%;
+    height: 600px;
+    border-radius: 10%;
+    background-image: url(../img/coast2.jpg);
+    opacity: 2;
+    text-align: center;
+    font-size: 25px;
+
+}
+.startimg {
+    position: relative;
+   
+  }
+  
+  .startimg::before {
+    content: "";
+    
+   
+    
+    opacity: 0.5; /* Adjust the opacity value as needed */
+  }
+.startimg img{
+    width: 8cm;
+    height: auto;
+
+}
+.startcon{
+   font-size: 20px;
+   text-align: center;
+}
+.header {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .conhead {
+    display: flex;
+    justify-content: center;
+    margin-top: 1cm;
+    flex: 1;
+    justify-content: space-evenly;
+    width: 5cm;
+    
+  }
+  .conhead li {
+    text-decoration: none;
+    justify-content: space-evenly;
+    flex: 1;
+    padding: 10px;
+  }
+  .conhead li a {
+    color: #0e0b0b;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 2cm;
+    margin-right: 1cm;
+    border-radius: 5px;
+    background: transparent;
+    transition: 0.9s ease;
+    padding: 10px;
+  }
+  .conhead li a:hover {
+    background: rgb(58, 58, 190);
+  }
+  :root{
+    --custom-color:rgb(53, 167, 196);
+  }
+  button{
+    color:rgb(68, 162, 206);
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 25px;
+    border: none;
+  }
+  button:hover{
+    background: var(--custom-color);
+    color: #0e0b0b;
+  }
+.end{
+    display: flex;
+    background: #0e0b0b;
+    margin: 20px;
+  
+  }
+  .end p{
+    color: var(--custom-color);
+    text-decoration: none;
+  }
+  .end h3{
+    color:var(--custom-color);
+  }
+  .end a{
+    text-decoration: none;
+    
+  }
+  .end div{
+    padding: 10px;
+  }

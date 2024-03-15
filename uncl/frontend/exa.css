@@ -1,0 +1,35 @@
+.boxcon {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boxcon:hover {
+    background-color: #eee;
+  }
+  
+  .boxcon:active {
+    background-color: #ccc;
+  }
+  
+  .boxcon::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .boxcon:active::before {
+    opacity: 1;
+  }
