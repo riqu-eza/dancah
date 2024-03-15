@@ -97,6 +97,9 @@
   margin: 1cm;
 
 }
+:root{
+  --custom-color:rgb(53, 167, 196);
+}
 .blogbox{
   border: 2px solid rgb(49, 154, 202);
   justify-content: space-evenly;
@@ -135,4 +138,24 @@
   height: 95%;
   border: 2px solid rgb(139, 178, 204);
   text-align: center;
+}
+.end{
+  display: flex;
+  background: #0e0b0b;
+  margin: 20px;
+
+}
+.end p{
+  color: var(--custom-color);
+  text-decoration: none;
+}
+.end h3{
+  color:var(--custom-color);
+}
+.end a{
+  text-decoration: none;
+  
+}
+.end div{
+  padding: 10px;
 }
